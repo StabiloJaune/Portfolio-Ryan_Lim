@@ -349,7 +349,7 @@ h2 span {
 
 @media (max-width: 768px) {
     header {
-        position: absolute;
+        position: fixed;
     }
 
     nav {
