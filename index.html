@@ -22,7 +22,7 @@
         <div class="home-content">
             <h1>Ryan Lim</h1>
             <h3 class="typing-text"><span></span></h3>
-            <p>Développeur qui aime faire joujou avec des technos et qui adore son association par dessus tout.<br>Après l'obtention du bac, j'ai choisi Epitech</p>
+            <p>Développeur qui aime faire joujou avec des technos et qui adore son association par dessus tout.</p>
         </div>
     </section>
 
@@ -160,6 +160,16 @@
 
     <section id="contact">
         <h2>Contact</h2>
+
+        <form action="https://formspree.io/f/ton_identifiant" method="POST" class="contact-form">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Nom complet" required>
+                <input type="email" name="email" placeholder="Adresse e-mail" required>
+            </div>
+            <textarea name="message" cols="30" rows="8" placeholder="Votre message..." required></textarea>
+            <button type="submit" class="btn">Envoyer le message</button>
+        </form>
+
         <div class="links">
             <a href="https://linkedin.com/in/ton-profil" target="_blank" class="btn-icon">
                 <i class="fab fa-linkedin-in"></i>
